@@ -1,15 +1,25 @@
 class Gold extends MineralCalculator {
-        int price = 100; // 이거.. 아니야...? 웨않돼지...
+    int Price = 100;
+        Gold() {
+            this.price = Price;
+
+        }
     }
 
-}
-
 class Silver extends MineralCalculator {
-    int price = 80;
+    int Price = 90;
+    Silver() {
+        this.price = Price;
+
+    }
 }
 
 class Bronze extends MineralCalculator {
-    int price = 70;
+    int Price = 80;
+    Bronze() {
+        this.price = Price;
+
+    }
 }
 
 
@@ -18,7 +28,7 @@ public class MineralCalculator {
     int price;
 
     void add(MineralCalculator mineralCalculator) {
-        this.value += price;
+        this.value += mineralCalculator.price;
 
     }
 

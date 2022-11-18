@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18be5870-9018-4595-8b75-25cf7b7ee52c" name="Changes" comment="22/11/18 오후 2시 45분&#10;미네랄 계산기 만들기 문제 / 주어진 코드 &#10;주어진 코드를 보고 요구사항 해결하기.&#10;1. 광물이 추가될 때마다 (자수정, 오팔, 다이아… 쭉쭉쭉 추가 예정) add메서드를 추가해야하는 단점이있는 코드.&#10;2. MineralCalculator 클래스의 add 메서드 추가하지 않는 방법을 생각해서, 코드를 수정하세요.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="18be5870-9018-4595-8b75-25cf7b7ee52c" name="Changes" comment="22/11/18 오후 8:00 &#10;1) 진행 : class Gold / Silver / Bronze 에 MineralCalculator 을 extends 하고난 뒤에 , 각각의 가격을 넣음.&#10;2) 문제 : void add(MineralCalculator mineralCalculator) 여기서 계산이 안됨. sout(this.value) sout(this.price) 하니 둘다 0에서 안바뀌어있음... somebody help me..">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MineralCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MineralCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668749954737</updated>
       <workItem from="1668749956037" duration="5323000" />
-      <workItem from="1668761235049" duration="6809000" />
+      <workItem from="1668761235049" duration="8962000" />
     </task>
     <task id="LOCAL-00001" summary="22/11/18 오후 2시 45분&#10;미네랄 계산기 만들기 문제 &#10;주어진 코드를 보고 요구사항 해결하기.&#10;1. 광물이 추가될 때마다 (자수정, 오팔, 다이아… 쭉쭉쭉 추가 예정) add메서드를 추가해야하는 단점이있는 코드.&#10;2. MineralCalculator 클래스의 add 메서드 추가하지 않는 방법을 생각해서, 코드를 수정하세요.">
       <created>1668750467188</created>
@@ -101,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668750654428</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="22/11/18 오후 8:00 &#10;1) 진행 : class Gold / Silver / Bronze 에 MineralCalculator 을 extends 하고난 뒤에 , 각각의 가격을 넣음.&#10;2) 문제 : void add(MineralCalculator mineralCalculator) 여기서 계산이 안됨. sout(this.value) sout(this.price) 하니 둘다 0에서 안바뀌어있음... somebody help me..">
+      <created>1668769620034</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668769620034</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="22/11/18 오후 2시 45분&#10;미네랄 계산기 만들기 문제 &#10;주어진 코드를 보고 요구사항 해결하기.&#10;1. 광물이 추가될 때마다 (자수정, 오팔, 다이아… 쭉쭉쭉 추가 예정) add메서드를 추가해야하는 단점이있는 코드.&#10;2. MineralCalculator 클래스의 add 메서드 추가하지 않는 방법을 생각해서, 코드를 수정하세요." />
     <MESSAGE value="22/11/18 오후 2시 45분&#10;미네랄 계산기 만들기 문제 / 주어진 코드 &#10;주어진 코드를 보고 요구사항 해결하기.&#10;1. 광물이 추가될 때마다 (자수정, 오팔, 다이아… 쭉쭉쭉 추가 예정) add메서드를 추가해야하는 단점이있는 코드.&#10;2. MineralCalculator 클래스의 add 메서드 추가하지 않는 방법을 생각해서, 코드를 수정하세요." />
-    <option name="LAST_COMMIT_MESSAGE" value="22/11/18 오후 2시 45분&#10;미네랄 계산기 만들기 문제 / 주어진 코드 &#10;주어진 코드를 보고 요구사항 해결하기.&#10;1. 광물이 추가될 때마다 (자수정, 오팔, 다이아… 쭉쭉쭉 추가 예정) add메서드를 추가해야하는 단점이있는 코드.&#10;2. MineralCalculator 클래스의 add 메서드 추가하지 않는 방법을 생각해서, 코드를 수정하세요." />
+    <MESSAGE value="22/11/18 오후 8:00 &#10;1) 진행 : class Gold / Silver / Bronze 에 MineralCalculator 을 extends 하고난 뒤에 , 각각의 가격을 넣음.&#10;2) 문제 : void add(MineralCalculator mineralCalculator) 여기서 계산이 안됨. sout(this.value) sout(this.price) 하니 둘다 0에서 안바뀌어있음... somebody help me.." />
+    <option name="LAST_COMMIT_MESSAGE" value="22/11/18 오후 8:00 &#10;1) 진행 : class Gold / Silver / Bronze 에 MineralCalculator 을 extends 하고난 뒤에 , 각각의 가격을 넣음.&#10;2) 문제 : void add(MineralCalculator mineralCalculator) 여기서 계산이 안됨. sout(this.value) sout(this.price) 하니 둘다 0에서 안바뀌어있음... somebody help me.." />
   </component>
 </project>
