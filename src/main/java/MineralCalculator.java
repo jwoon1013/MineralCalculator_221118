@@ -1,31 +1,30 @@
-// 문제 : 현재 광물을 추가할 때 마다 add 메서드를 추가해야하는 단점이 있는 코드.
-// MineralCalculator 클래스의 add 메서드 추가하지 않는 방법을 생각해서, 코드를 수정하기.
-
-class Gold {
-}
-
-class Silver {
-}
-
-class Bronze {
-}
-
-class MineralCalculator {
-    int value = 0;
-
-    public void add(Gold gold) {
-        this.value += 100;
+class Gold extends MineralCalculator {
+        int price = 100; // 이거.. 아니야...? 웨않돼지...
     }
 
-    public void add(Silver silver) {
-        this.value += 90;
-    }
+}
 
-    public void add(Bronze bronze) {
-        this.value += 80;
+class Silver extends MineralCalculator {
+    int price = 80;
+}
+
+class Bronze extends MineralCalculator {
+    int price = 70;
+}
+
+
+public class MineralCalculator {
+    int value;
+    int price;
+
+    void add(MineralCalculator mineralCalculator) {
+        this.value += price;
+
     }
 
     public int getValue() {
         return this.value;
     }
+
 }
+

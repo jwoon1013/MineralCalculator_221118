@@ -4,6 +4,7 @@ public class Sample {
         cal.add(new Gold());
         cal.add(new Silver());
         cal.add(new Bronze());
+
         System.out.println(cal.getValue());  // 270 출력
     }
 }
