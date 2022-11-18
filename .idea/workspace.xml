@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18be5870-9018-4595-8b75-25cf7b7ee52c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MineralCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sample.java" afterDir="false" />
-    </list>
+    <list default="true" id="18be5870-9018-4595-8b75-25cf7b7ee52c" name="Changes" comment="22/11/18 오후 2시 45분&#10;미네랄 계산기 만들기 문제 &#10;주어진 코드를 보고 요구사항 해결하기.&#10;1. 광물이 추가될 때마다 (자수정, 오팔, 다이아… 쭉쭉쭉 추가 예정) add메서드를 추가해야하는 단점이있는 코드.&#10;2. MineralCalculator 클래스의 add 메서드 추가하지 않는 방법을 생각해서, 코드를 수정하세요." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,12 +52,21 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="18be5870-9018-4595-8b75-25cf7b7ee52c" name="Changes" comment="" />
+      <changelist id="" name="OriginalCode_221118_PM0245" comment="처음 주어진 코드" />
       <created>1668749954737</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668749954737</updated>
-      <workItem from="1668749956037" duration="311000" />
+      <workItem from="1668749956037" duration="689000" />
     </task>
+    <task id="LOCAL-00001" summary="22/11/18 오후 2시 45분&#10;미네랄 계산기 만들기 문제 &#10;주어진 코드를 보고 요구사항 해결하기.&#10;1. 광물이 추가될 때마다 (자수정, 오팔, 다이아… 쭉쭉쭉 추가 예정) add메서드를 추가해야하는 단점이있는 코드.&#10;2. MineralCalculator 클래스의 add 메서드 추가하지 않는 방법을 생각해서, 코드를 수정하세요.">
+      <created>1668750467188</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668750467188</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +82,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="22/11/18 오후 2시 45분&#10;미네랄 계산기 만들기 문제 &#10;주어진 코드를 보고 요구사항 해결하기.&#10;1. 광물이 추가될 때마다 (자수정, 오팔, 다이아… 쭉쭉쭉 추가 예정) add메서드를 추가해야하는 단점이있는 코드.&#10;2. MineralCalculator 클래스의 add 메서드 추가하지 않는 방법을 생각해서, 코드를 수정하세요." />
+    <option name="LAST_COMMIT_MESSAGE" value="22/11/18 오후 2시 45분&#10;미네랄 계산기 만들기 문제 &#10;주어진 코드를 보고 요구사항 해결하기.&#10;1. 광물이 추가될 때마다 (자수정, 오팔, 다이아… 쭉쭉쭉 추가 예정) add메서드를 추가해야하는 단점이있는 코드.&#10;2. MineralCalculator 클래스의 add 메서드 추가하지 않는 방법을 생각해서, 코드를 수정하세요." />
   </component>
 </project>
